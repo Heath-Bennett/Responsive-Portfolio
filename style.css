@@ -1,3 +1,37 @@
-.foot{
-    font-size:10px;
+a:link {
+    color:rgb(19, 10, 99);
 }
+
+a:hover{
+    background-color:white;
+    
+}
+footer{
+    background-color:cornflowerblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:60px;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+
+}
+
+
+
+.foot li, .foot li p{
+    display: inline;
+    padding: 2px;
+}
+
+.font-icon {
+    display:inline-block;
+    margin:5px;
+    position:relative;
+    bottom:10px;
+}
+
+
+
