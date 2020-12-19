@@ -1,10 +1,20 @@
 
+main {
+    padding-bottom: 50px;
+}
+img {
+    padding-bottom:10px;
+}
+input[type="submit"]{
+    background-color: darkblue;
+}
 
-input, label {
+input, textarea, label{
     display: block;
     margin:5px;
-    
 }
+
+
 a:link {
     color:rgb(19, 10, 99);
 }
@@ -19,10 +29,11 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    height:60px;
+    height:50px;
     text-align: center;
     color:white;
     font-size: 12px;
+    
 
 }
 
