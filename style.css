@@ -1,3 +1,12 @@
+fieldset {
+    display:
+}
+
+input, label {
+    display: block;
+    margin:5px;
+    
+}
 a:link {
     color:rgb(19, 10, 99);
 }
@@ -32,6 +41,8 @@ footer{
     position:relative;
     bottom:10px;
 }
+
+
 
 
 
