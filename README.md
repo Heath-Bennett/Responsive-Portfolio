@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-This is a responsive portfolio page built using Bootstrap.
+This webpage was built using Symantec HTML and Bootstrap. The site contains a homepage, portfolio page, and contacts.  Bootstrap was used in creating the nav bar and layout for homepage and portfolio page. 

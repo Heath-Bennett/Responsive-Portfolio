@@ -1,54 +1,97 @@
 
+h1, h2 {
+    position: relative;
+    padding:10px;
+    left: 30px;   
+}
+.navbar-brand{
+    text-align: center;
+}
+
+h2, legend{
+    font-family: 'Lobster', cursive;
+    color:#0a4bad;
+}
+
+nav {
+    border-bottom:#00f034 solid 5px;
+}
+
+nav.nav-gray {
+    background-color:#36454F ;
+}
+
+
 main {
     padding-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:2%;
+    max-width:100%
+
+}
+
+main fieldset{
+    border:solid;
+    padding:20px;
+    margin:10px;
+}
+div.about-me {
+    position:relative;
+    right:2%; 
+    
 }
 img {
     padding-bottom:10px;
 }
+
+
 input[type="submit"]{
-    background-color: darkblue;
+    background-color:#0a4bad;
+    margin-top:20px;
+    color:white;
 }
 
 input, textarea, label{
     display: block;
     margin:5px;
-}
-
-
-a:link {
-    color:rgb(19, 10, 99);
-}
-
-a:hover{
-    background-color:white;
+    position: relative;
+    padding:4px;
     
 }
+
+a[href="mailto:heathben418@gmail.com"] {
+    color:#00f034;
+}
+
+
 footer{
-    background-color:cornflowerblue;
+    background-color:#36454F;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height:50px;
+    height:60px;
     text-align: center;
     color:white;
     font-size: 12px;
+    border-top:#00f034 solid 5px;
     
 
 }
 
-
-
-.foot li, .foot li p{
+ul.foot li, ul.foot li p{
     display: inline;
     padding: 2px;
 }
 
-.font-icon {
+div.font-icon {
     display:inline-block;
     margin:5px;
     position:relative;
-    bottom:10px;
+    bottom:15px;
 }
 
 
