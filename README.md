@@ -4,3 +4,5 @@ This webpage was built using Symantec HTML and Bootstrap. The site contains a ho
 ![Image of Homepage](./assets/homepage.png)
 ![Image of Contact page](./assets/contact.png)
 ![Image of Portfolio page](./assets/portgolio.png)
+
+[A link to my live page](https://heath-bennett.github.io/Responsive-Portfolio/.)
