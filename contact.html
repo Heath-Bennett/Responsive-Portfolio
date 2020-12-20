@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Heath Bennett</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Heath Bennett</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
 
     <body>
         <!--Contains header element and navigation-->
@@ -33,34 +33,40 @@
                       <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contacts</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                      </li>
                     </ul>
                   </div>
                 </div>
               </nav>
-        </header>\
-
-        <h2>About Me</h2>
+        </header>
 
         <!--Main content of the page-->
+        
         <main>
-            <div class="container-fluid">
-              <div class="row">
-                  <div class="col-12 col-md-6 col-lg-4">
-                    <img src="https://via.placeholder.com/300" alt="placeholder image">
-                  </div>
-                  <div class="col-12 col-md-6 col-lg-8 about-me">
-                    <p>Pokem ipsum dolor sit amet Shedinja Fire Red Magby Golem Slash Spinarak. Ut aliquip ex ea commodo consequat Spoink Venomoth Tornadus Raikou Espeon Beautifly. Earth Badge Claydol Psyduck Kricketune Storm Badge Officer Jenny Zigzagoon. Rising Badge Wartortle Torchic Magcargo Tepig Finneon Metang. Volcano Badge Golett Scraggy Bellossom Plusle Zubat Meloetta.</p>
-
-                    <p>Gotta catch 'em all Parasect sunt in culpa qui officia Shinx Mantyke Lavender Town Archen. Ground Lavender Town Mr. Mime Skiploom Chimecho Dragonite Soda Pop. Harden sed do eiusmod tempor Cofagrigus Jirachi Togepi Vanilluxe Dewott. Grass Eelektrik Chandelure Professor Elm Abomasnow Slugma Mandibuzz. Yellow Glitch City Tentacruel Wailmer Lanturn Ponyta Gallade.</p>
-
-                    <p> Celadon Department Store Rage Hippowdon Skitty Patrat Bisharp Ponyta. Strength Chimchar Wormadam Pignite Goldeen Arceus Haxorus. Ivysaur Ampharos to train them is my cause gotta catch 'em all sed do eiusmod tempor Ledian Wigglytuff. Fighting Lopunny Harden Galvantula gotta catch 'em all Skarmory Sudowoodo. Kanto Swinub Marsh Badge Corsola Volcarona Golurk Breloom.</p>
-                  </div>
-              </div>
+          
+          <form>
+            
+            <fieldset>
+              <legend>Contact</legend>
               
-            </div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="First and last" required>
 
+              <label for="email">Email:</label>
+              <input type="text" id="email" placeholder="Email" required>
+
+              <label for="comment-area">Comments:</label>
+              <textarea id="comment-area" name="comment-area" rows="5" cols="50" placeholder="How can I help you today?"></textarea>
+
+              <input type="submit" value="Submit">
+
+            </fieldset>
+            
+          </form>
+          
         </main>
-
         <footer>
 
           <div>
@@ -69,7 +75,7 @@
                 Created by: Heath Bennett
               </li>
               <li>
-                <a id="email" href="mailto:heathben418@gmail.com">heathben418@gmail.com</a>
+                <a href="mailto:heathben418@gmail.com">heathben418@gmail.com</a>
               </li>
               <li>
                 <p>&copy; December 15, 2020</p>
